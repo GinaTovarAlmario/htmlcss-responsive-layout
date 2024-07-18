@@ -144,6 +144,7 @@ footer {
 }
 .row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: 20px 10px;
 }
@@ -153,7 +154,7 @@ footer {
 .box i {
     color: var(--primary-color);
 }
-.box {
+.row .box {
     margin-bottom: 10px;
     display: flex;
     align-items: baseline;
