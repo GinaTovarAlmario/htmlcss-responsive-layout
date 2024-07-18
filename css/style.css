@@ -20,6 +20,9 @@ header {
     font-family:'Nerko One', cursive;
     background-color: transparent;
 }
+img {
+    width: 100%;
+}
 main {
     min-height: 800px;
     background-color: var(--background-color);
@@ -152,8 +155,9 @@ section {
     flex-basis: calc(100% / 5);
 }
 .box-social {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 60px;
+    font-size: large;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -177,7 +181,9 @@ section {
 }
 .youtube {
     color: #bf1d1d;
-
+}
+#presentation {
+    margin-bottom: 30px;
 }
 /*Utils*/
 .container {
