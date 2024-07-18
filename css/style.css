@@ -30,6 +30,10 @@ h1 {
     text-shadow: 1px 1px gray;
     padding: 20px 40px;
 }
+h2 {
+    display: inline;
+    font-weight: 800;
+}
 section {
     padding: 20px 20px;
 
@@ -47,15 +51,18 @@ main a {
     flex-direction: row;
     align-items: center;
     margin-top: 10px;
-
 }
+/*ho bisogno di spazio per la comparsa testo nascosto*/
 .name-dessert {
-    flex-basis: 50%;
+    flex-basis: 70%;
     color:var(--secondary-color) ;
-    font-weight: 800;
+}
+.full-txt {
+    display: none;
+    margin-left: 10px;
 }
 .rating {
-    flex-basis: 50%;
+    flex-basis: 30%;
     display: flex;
     justify-content: flex-end;
     align-items: baseline;
@@ -71,8 +78,14 @@ main a {
 .fa-star {
     color: var(--primary-color);
 }
+/*calcolo tenendo in conto che i video sono 16:9 3 che ho dato del padding alla section*/
+.video iframe {
+    width: 100%;
+    display: block;
+    height: calc((100vw - 40px)* 9 / 16);
+}
 /*Utils*/
-.contanier {
+.container {
     max-width: 900px;
     margin: 0 auto;
 }
