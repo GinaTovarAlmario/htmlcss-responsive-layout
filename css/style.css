@@ -37,9 +37,6 @@ h2 {
 ul {
     list-style-type: none;
 }
-ul i {
-    color: var(--primary-color);
-}
 section {
     padding: 20px 20px;
 
@@ -127,19 +124,29 @@ section {
     font-size: large;
     font-weight: 600;
 }
-.ingredient-list li {
-    display: flex;
-    align-items: baseline;
-    gap: 5px;
-    margin-bottom: 10px;
-    padding: 0 20px;
-}
 .calories {
     padding: 20px;
 }
 .line-top {
     padding: 20px;
     border-top: 1px solid black;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 10px;
+}
+.row >.col {
+    flex-basis: calc(100% / 3);
+}
+.box i {
+    color: var(--primary-color);
+}
+.box {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
 }
 /*Utils*/
 .container {
