@@ -21,6 +21,7 @@ header {
     background-color: transparent;
 }
 main {
+    min-height: 800px;
     background-color: var(--background-color);
 }
 h1 {
@@ -29,10 +30,16 @@ h1 {
     text-shadow: 1px 1px gray;
     padding: 20px 40px;
 }
+section {
+    padding: 20px 20px;
+
+}
 main a {
     color:#ccbcb1;
     text-decoration: none;
     cursor: pointer;
+}
+.selection-dessert {
 }
 .type-of-dessert {
     font-size: large;
@@ -53,7 +60,6 @@ main a {
     justify-content: flex-end;
     align-items: baseline;
     gap: 10px;
-    margin-right: 20px;
 }
 .btn {
     color: white;
