@@ -12,16 +12,16 @@
     .commercial {
         display: inline;
     }
+    .box-social {
+        height: 50px;
+        width: 130px;
+        border-radius: 20px;
+    }
 }
 /*Modalità Desktop fino a 992px*/
 @media screen and (min-width:992px){
     h1 {
         font-size: 60px;
-    }
-    .box-social {
-        height: 50px;
-        width: 130px;
-        border-radius: 20px;
     }
     .social-name {
         display: inline;
