@@ -3,7 +3,11 @@
 @media screen and (min-width:768px){
     h1 {
         text-align: left;
+        font-size: 50px;
         padding: 20px 10px;
+    }
+    section {
+        padding: 60px 30px;
     }
     .full-txt {
         display: inline-block;
@@ -11,5 +15,8 @@
 }
 /*Modalità Desktop fino a 992px*/
 @media screen and (min-width:992px){
+    h1 {
+        font-size: 60px;
+    }
 
 }

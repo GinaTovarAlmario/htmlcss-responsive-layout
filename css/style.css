@@ -55,11 +55,19 @@ main a {
 /*ho bisogno di spazio per la comparsa testo nascosto*/
 .name-dessert {
     flex-basis: 70%;
+    display: flex;
     color:var(--secondary-color) ;
+}
+.left {
+    flex-basis: 20%;
+
+}
+.right {
+    flex-basis: 80%;
+
 }
 .full-txt {
     display: none;
-    margin-left: 10px;
 }
 .rating {
     flex-basis: 30%;
@@ -83,10 +91,14 @@ main a {
     width: 100%;
     display: block;
     height: calc((100vw - 40px)* 9 / 16);
+    margin-top: 30px;
+}
+#ingredinìents {
+    background-color: transparent;
 }
 /*Utils*/
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
