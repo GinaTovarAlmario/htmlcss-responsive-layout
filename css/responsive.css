@@ -1,12 +1,12 @@
-/*Mobile first sopra i 576px*/
-@media screen and (min-width:579px){
+/*Mobile first fino a 576px*/
+@media screen and (min-width:576px){
 
 }
-/*Modalità Tablet sopra i 768px*/
+/*Modalità Tablet fino a 768px*/
 @media screen and (min-width:768px){
 
 }
-/*Modalità Desktop sopra 992px*/
+/*Modalità Desktop fino a 992px*/
 @media screen and (min-width:992px){
 
 }

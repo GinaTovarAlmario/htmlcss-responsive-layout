@@ -1,6 +1,7 @@
 /*Custom properties*/
 :root {
-
+--primary-color:#ff9514;
+--background-color:#f5f4f2;
 }
 /*Reset*/
 * {
@@ -11,9 +12,16 @@
 /*Generics*/
 body{
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    border: 1px solid black;
+    background-color: var(--background-color);
 }
 header {
-    color:#ff9514;
+    color:var(--primary-color);
     font-family:'Nerko One', cursive;
     background-color: transparent;
+}
+/*Utils*/
+.contanier {
+    max-width: 1200px;
+    margin: 0 auto;
 }
