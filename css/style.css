@@ -199,6 +199,10 @@ footer a {
 address {
     text-align: center;
     padding-top: 20px;
+    font-style: normal;
+}
+.company {
+    font-weight: 800;
 }
 .row > .col-menu {
     flex-basis:25%;
