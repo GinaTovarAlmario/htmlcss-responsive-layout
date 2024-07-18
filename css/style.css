@@ -34,6 +34,12 @@ h2 {
     display: inline;
     font-weight: 800;
 }
+ul {
+    list-style-type: none;
+}
+ul i {
+    color: var(--primary-color);
+}
 section {
     padding: 20px 20px;
 
@@ -42,8 +48,6 @@ main a {
     color:#ccbcb1;
     text-decoration: none;
     cursor: pointer;
-}
-.selection-dessert {
 }
 .type-of-dessert {
     font-size: large;
