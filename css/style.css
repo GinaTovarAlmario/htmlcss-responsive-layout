@@ -160,11 +160,14 @@ footer {
     gap: 10px;
 }
 .row > .col-social {
-    flex-basis: calc(100% / 5);
+    flex-basis: 20%;
+}
+.row .box-social {
+    gap: 10px;
 }
 .box-social {
-    height: 50px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
     font-size: large;
     border-radius: 50%;
     display: flex;
@@ -192,6 +195,9 @@ footer {
 }
 #presentation {
     padding-bottom: 30px;
+}
+.social-name {
+    display: none;
 }
 /*banner*/
 .commercial {
