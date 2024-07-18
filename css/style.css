@@ -41,7 +41,7 @@ ul {
     list-style-type: none;
 }
 section {
-    padding: 20px 20px;
+    padding: 0 20px;
 }
 #info-dessert a {
     color:#ccbcb1;
@@ -61,6 +61,9 @@ footer {
     background-color: #7b68a3;
 }
 /*ho bisogno di spazio per la comparsa testo nascosto*/
+#info-dessert {
+    padding-top: 20px;
+}
 .name-dessert {
     flex-basis: 70%;
     display: flex;
@@ -110,6 +113,7 @@ footer {
 .card-ingredients {
     min-width: 200px;
     margin: 0 20px;
+    padding-top: 20px;
     background-color: white;
     border-bottom: 1px solid white;
     border-radius: 15px;
@@ -207,9 +211,9 @@ address {
 .row > .col-menu {
     flex-basis:25%;
 }
-.box-menu {
+.menu {
     display: flex;
-    gap: 10px;
+    justify-content: space-around;
 }
 /*Utils*/
 .container {
