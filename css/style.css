@@ -44,7 +44,7 @@ section {
     padding: 20px 20px;
 
 }
-main a {
+#info-dessert a {
     color:#ccbcb1;
     text-decoration: none;
     cursor: pointer;
@@ -80,12 +80,18 @@ main a {
     align-items: baseline;
     gap: 10px;
 }
-.btn {
+.btn-primary {
     color: white;
+    padding: 10px 15px;
     font-weight: 600;
     background-color: var(--primary-color);
-    padding: 10px 15px;
     border-radius: 20px;
+}
+.btn-secondary {
+    color: white;
+    padding: 5px 10px;
+    background-color: #7c6aa3;
+    border-radius: 10px;
 }
 .fa-star {
     color: var(--primary-color);
@@ -103,15 +109,37 @@ main a {
     background-color: white;
     border-bottom: 1px solid white;
     border-radius: 15px;
-    
+    box-shadow: 0 1px gray;  
 }
-
+.inner-card {
+    min-height: 100px;
+    background-color: #f6f5fa;
+    margin: 10px 10px;
+}
+.calories {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.calories a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
 .ingredient-list li {
     display: flex;
     align-items: baseline;
     gap: 5px;
     margin-bottom: 10px;
     padding: 0 20px;
+}
+.calories {
+    padding: 20px;
+}
+.line-top {
+    padding: 20px;
+    border-top: 1px solid black;
 }
 /*Utils*/
 .container {
