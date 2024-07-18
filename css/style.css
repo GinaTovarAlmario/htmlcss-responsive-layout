@@ -159,7 +159,26 @@ section {
     align-items: center;
     justify-content: center;
     background-color: white;
-}   
+}
+.facebook {
+    color: #5079f2;
+
+} 
+.twitter {
+    color: #009dff;
+
+} 
+.instagram {
+    color: #e38aa2;
+
+}
+.pinterest {
+    color: #e62737;
+}
+.youtube {
+    color: #bf1d1d;
+
+}
 /*Utils*/
 .container {
     max-width: 1000px;
