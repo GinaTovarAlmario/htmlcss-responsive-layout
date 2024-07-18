@@ -193,6 +193,15 @@ footer {
 #presentation {
     padding-bottom: 30px;
 }
+/*banner*/
+.commercial {
+    display: none;
+    width: 100%;
+}
+/*presentation*/
+.tiramisu-img {
+    width: 50%;
+}
 
 
 /*footer*/
