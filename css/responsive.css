@@ -1,10 +1,10 @@
 /*Mobile first fino a 576px*/
-@media screen and (min-width:576px){
-
-}
 /*Modalità Tablet fino a 768px*/
 @media screen and (min-width:768px){
-
+    h1 {
+        text-align: left;
+        padding: 20px 10px;
+    }
 }
 /*Modalità Desktop fino a 992px*/
 @media screen and (min-width:992px){
