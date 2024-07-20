@@ -46,6 +46,12 @@ footer {
     text-align: center;
     padding: 20px;
 }
+hr {
+    max-width: 60px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    margin-top: 5px;
+}
 /* header nel main */
 .top {
     display: flex;
@@ -189,9 +195,19 @@ footer {
     display: none;
     width: 100%;
 }
-/*presentation*/
+/*sezione presentation*/
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .tiramisu-img {
-    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 /*footer*/
 footer a {

@@ -30,7 +30,9 @@
         display: block;
     }
     /* img descrizione viene circondata dal testo */
-   
+    .tiramisu-img {
+        float: left;
+    }
 }
 
 /*Modalità Desktop fino a 992px*/
