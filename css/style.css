@@ -203,11 +203,14 @@ hr {
 }
 
 .tiramisu-img {
-    max-width: 300px;
+    width: 50%;
     margin: 0 auto;
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+p {
+    line-height: 20px;
 }
 /*footer*/
 footer a {
