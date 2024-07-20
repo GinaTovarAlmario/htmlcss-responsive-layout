@@ -1,31 +1,64 @@
-/*Mobile first fino a 576px*/
+/*Mobile first*/
+
 /*Modalità Tablet fino a 768px*/
+
 @media screen and (min-width:768px){
-    h1 {
-        text-align: left;
-        font-size: 50px;
-        padding: 20px 10px;
+    /* logo nel header si allinea a sx */
+    #topbar {
+        justify-content: flex-start;
     }
+    /* padding del contenuto principale aumenta */
+
+    /* compare il testo (dolce tradizionale) */
     .full-txt {
         display: inline-block;
     }
-    .commercial {
-        display: inline;
-    }
+    /* grandezza del titolo aumenta */
+    
+    /* info ricetta sotto video si dispongono a griglia */
+
+    /* bottoni social si allargano */
     .box-social {
         height: 50px;
         width: 130px;
         border-radius: 20px;
     }
+    /* compare banner pubblicità */
+    .commercial {
+        display: inline;
+    }
+    /* img descrizione viene circondata dal testo */
+   
 }
 
 /*Modalità Desktop fino a 992px*/
+
 @media screen and (min-width:992px){
+    /* grandezza titolo aumenta ancora */
     h1 {
         font-size: 60px;
     }
+    /* le info ricetta tornano a disporsi una sotto l'altra */
+
+    /* il video e le info si mettono accanto */
+
+    /* compaiono nomi piattafrome social */
     .social-name {
         display: inline;
     }
+    /* nel footer i dati del sito e il suo menù si dispongono
+    sulla stessa linea ma su lati opposti */
 
+
+
+
+
+    /* nel footer i dati del sito e il menù di navigazione si dispongono sulla stessa linea,
+    ma su lati opposti */
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-align: left;
+    }
 }
