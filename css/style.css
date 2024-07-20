@@ -105,12 +105,14 @@ hr {
     box-shadow: 0 5px 10px gray;
     margin-bottom: 20px;
 }
-/*calcolo tenendo in conto che i video sono 16:9 3 che ho dato del padding alla section*/
-.video iframe {
+.recipe-video iframe {
+    border: 0;
     width: 100%;
+    height: 100%;
     display: block;
-    height: calc((100vw - 40px)* 9 / 16);
-    margin-top: 30px;
+}
+.recipe-video {
+    height: 50vw;
 }
 .inner-card {
     min-width: 100px;
@@ -205,14 +207,14 @@ hr {
 }
 
 .tiramisu-img {
-    width: 50%;
+    max-width: 300px;
     margin: 0 auto;
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 p {
-    line-height: 20px;
+    line-height: 30px;
 }
 /*footer*/
 footer a {
