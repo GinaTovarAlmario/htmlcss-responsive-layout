@@ -28,30 +28,16 @@ img {
     width: 100%;
 }
 main {
-    min-height: 800px;
+    min-height:calc(100vh - 80px);
     background-color: var(--background-color);
-}
-h2 {
+    padding: 20px;
+}  
+
+header h2 {
     display: inline;
-    font-weight: 800;
 }
 ul {
     list-style-type: none;
-}
-section {
-    padding: 0 20px;
-}
-#info-dessert a {
-    color:#ccbcb1;
-    text-decoration: none;
-    cursor: pointer;
-}
-.type-of-dessert {
-    font-size: large;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 10px;
 }
 footer {
     min-height: 80px;
@@ -60,27 +46,30 @@ footer {
     text-align: center;
     padding: 20px;
 }
-/*ho bisogno di spazio per la comparsa testo nascosto*/
-#info-dessert {
-    padding-top: 20px;
-}
-.name-dessert {
-    flex-basis: 70%;
+/* header nel main */
+.top {
     display: flex;
-    color:var(--secondary-color) ;
+    align-items: flex-end;
+    margin-bottom: 15px;
 }
-.left {
-    flex-basis: 20%;
-
+.category {
+    color:#ccbcb1;
+    font-size: 15px;
+    font-weight: 300;
 }
-.right {
-    flex-basis: 80%;
-
+.name-dessert,
+.full-txt {
+    color:var(--secondary-color);
+    font-weight: 800;
 }
 .full-txt {
     display: none;
+    font-size: 25px;
 }
-.rating {
+.recipe-title {
+    flex-basis: 70%;
+}
+.recipe-rating {
     flex-basis: 30%;
     display: flex;
     justify-content: flex-end;
@@ -103,6 +92,7 @@ footer {
 .fa-star {
     color: var(--primary-color);
 }
+
 /*calcolo tenendo in conto che i video sono 16:9 3 che ho dato del padding alla section*/
 .video iframe {
     width: 100%;
@@ -142,30 +132,7 @@ footer {
     padding: 20px;
     border-top: 1px solid black;
 }
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 20px 10px;
-}
-.row > .col {
-    flex-basis: calc(100% / 3);
-}
-.box i {
-    color: var(--primary-color);
-}
-.row .box {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: baseline;
-    gap: 10px;
-}
-.row > .col-social {
-    flex-basis: 20%;
-}
-.row .box-social {
-    gap: 10px;
-}
+
 .box-social {
     height: 40px;
     width: 40px;
@@ -209,8 +176,6 @@ footer {
 .tiramisu-img {
     width: 50%;
 }
-
-
 /*footer*/
 footer a {
     color: white;
@@ -228,4 +193,5 @@ footer ul {
     max-width: 1400px;
     margin: 0 auto;
 }
+
 
