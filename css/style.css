@@ -92,7 +92,13 @@ footer {
 .fa-star {
     color: var(--primary-color);
 }
-
+/* sezione card */
+.recipe-card {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 5px 10px gray;
+    margin-bottom: 20px;
+}
 /*calcolo tenendo in conto che i video sono 16:9 3 che ho dato del padding alla section*/
 .video iframe {
     width: 100%;
@@ -133,16 +139,29 @@ footer {
     border-top: 1px solid black;
 }
 
-.box-social {
-    height: 40px;
-    width: 40px;
-    font-size: large;
-    border-radius: 50%;
+/* socials section */
+.socials {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: white;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
 }
+.socials .social-name {
+    display: none;
+}
+.socials a {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    text-decoration: none;
+} 
 .facebook {
     color: #5079f2;
 
@@ -164,9 +183,7 @@ footer {
 #presentation {
     padding-bottom: 30px;
 }
-.social-name {
-    display: none;
-}
+
 /*banner*/
 .commercial {
     display: none;
