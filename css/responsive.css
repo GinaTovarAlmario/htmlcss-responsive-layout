@@ -20,7 +20,13 @@
         font-size: 20px;
     }
     /* info ricetta sotto video si dispongono a griglia */
-
+    .recipe-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recipe-notes li {
+        flex-basis: calc(100% / 3);
+    }
     /* bottoni social si allargano */
    .socials a {
     flex-basis: 20%;
