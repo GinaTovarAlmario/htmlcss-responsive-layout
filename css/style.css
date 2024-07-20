@@ -112,15 +112,6 @@ hr {
     height: calc((100vw - 40px)* 9 / 16);
     margin-top: 30px;
 }
-.card-ingredients {
-    min-width: 200px;
-    margin: 0 20px;
-    padding-top: 20px;
-    background-color: white;
-    border-bottom: 1px solid white;
-    border-radius: 15px;
-    box-shadow: 0 1px gray;  
-}
 .inner-card {
     min-width: 100px;
     background-color: #f6f5fa;
@@ -143,6 +134,17 @@ hr {
 .line-top {
     padding: 20px;
     border-top: 1px solid black;
+}
+.recipe-notes {
+    padding-bottom: 30px;
+}
+
+.recipe-notes i {
+    color: var(--primary-color);
+    margin: 10px 10px;
+}
+.recipe-notes li {
+    padding-bottom: 5px;
 }
 
 /* socials section */
