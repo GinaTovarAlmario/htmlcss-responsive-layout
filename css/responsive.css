@@ -27,7 +27,7 @@
    }
     /* compare banner pubblicità */
     .commercial {
-        display: inline;
+        display: block;
     }
     /* img descrizione viene circondata dal testo */
    
